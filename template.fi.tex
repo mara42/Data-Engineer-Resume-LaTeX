@@ -1,0 +1,135 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcvfi} % a4paper for A4
+
+% Command for printing skill overview bubbles
+\newcommand\skills{
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{Software}\\\textbf{Development},
+        \textbf{Full Stack}\\\textbf{Dev},
+        \textbf{~~~~~~~~OOP~~~~~~~~~},
+        %\textbf{}\\\textbf{},
+        \textbf{~~~~~TDD~~~~~}
+    }
+}
+
+% Programming skill bars
+\programming{{JavaScript / 1.3}, {Ruby / 1.5}, {Python / 5}}
+
+% Projects text
+\education{
+% \textbf{BSc., Computer Science} \\
+% University of Aberdeen \\
+% Expected graduation 2021 | Aberdeen, Scotland
+
+% \textbf{Matricular examination} \\
+% Mäntsälän lukio \\
+% Graduated 2015 | Mäntsälä, Finland
+}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\cvname{Martti Aukia} % Your name
+\cvjobtitle{Tietojenkäsittelytieteen opiskelija} % Job
+% title/career
+
+\cvlinkedin{/in/marttiaukia}
+\cvgithub{Mara42}
+\cvnumberphone{+44 7490 213492} % Phone number
+\cvsite{} % Personal website
+\cvmail{martti@aukia.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	Education
+%----------------------------------------------------------------------------------------
+\section{Koulutus}
+\begin{twenty}
+    \twentyitem
+        {Valmistumassa}
+        {2021}
+        {BSc. Computing Science}
+        {\href{https://www.abdn.ac.uk/}{Aberdeen University}, Skotlanti}
+        {}
+            {
+            \begin{itemize}
+               %  \item Tietojen hallinta, Olio-ohjelmointi, Verkkosovellus kehitys, Liikehallinta ja markkinointi.
+                \item Viimeaikaiset kursit: Data management, Object-Oriented Programming, Web Application development, Management and Marketing.
+                \item Kevät 2019: Algorithms (Python), modern programming languages (Python, Haskell, Java and Javascript) and human computer interaction
+               % \item Algorytmit (Python), modernit ohjemointi kielet (Python, Haskell, Java, Javascript, paradigmat) ja UX?
+            \end{itemize}
+}\\
+\twentyitem
+{Valmistui}
+{2015}
+{Ylioppilastutkinto}
+{\href{https://www.abdn.ac.uk/}{Mäntsälän Lukio}, Suomi}
+{}
+    {
+    Keskiarvo ‘Cum laude approbatur’ ja kaksi 'Eximia cum lau­de ap­pro­ba­tur' matematiikassa ja englannissa.
+     }
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Työ kokemus}
+
+\begin{twenty} % Environment for a list with descriptions
+     \twentyitem
+   		{Syys 2015 -}
+		{Syys 2016}
+        {Foorumi moderaattori ja Sosiaalimediatuki}
+        {\href{https://www.concentrix.com/}{Concentrix}, Belfast}
+        {}
+        {
+        \begin{itemize}
+        % \item Dealt with most of the Finnish markets forum, email and social media queries to Microsoft.
+        % \item Acted as the point of contact for Windows Phone and Lumia queries for colleagues in all supported languages.
+        % \item Provided training to existing agent to prepare them in more peculiar Windows Phone functionality.
+        \item Käsittelin suurta osaa Suomen markkinan kysymyksistä Micrositin foorumeilla, sähköpostissa ja sosiaalimediassa.
+        \item Toimin yhteyspisteenä kolleegoilleni kaikissa kieleissä Windows Phone ja Lumia kysymyksien suhteen.
+        \item Loin ja toimitin materiaalia koulutaakseeni kolleegojani Windows Phone -puhelimen erikoisimpaan ominaisuuksiin.
+    \end{itemize}
+    	}
+
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+\section{Interests}
+    \begin{itemize}
+    %    \item Board member of the Aberdeen University Computing Society.
+    %    \item Won a free trip to Germany for my middle school work in filming and editing.
+    %    \item I spend most of my free time reading and listening to podcasts.
+        \item Olen hallituksenjäsen Aberdeen University tietojenkäsittely-yhteisössä.
+        \item Voitin ilmaisen matkan Saksaan yläastella minun kuvaus ja edoitinti työllä.
+        \item Vietän suurimman osan ajastani lukemassa ja kuuntelemassa podcasteja.
+    \end{itemize}
+\end{document}

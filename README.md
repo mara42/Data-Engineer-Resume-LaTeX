@@ -1,4 +1,4 @@
-<!-- # LaTeX resume template
+<!--  LaTeX resume template
 
 This is the template I use for my own resume. I've compiled it with elements from several templates, including:
 
